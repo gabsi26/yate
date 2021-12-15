@@ -1,3 +1,6 @@
+use yate::core::row::Row;
+
 fn main() {
-    println!("Hello, world!");
+    let row = Row::default();
+    println!("{:#?}", row);
 }
